@@ -71,7 +71,7 @@ public class CatchGame {
                 play = false;
             }
 
-            // CHECK FOR DOCTOR CRASH
+            // CHECK FOR DOCTOR CRASH hhhb
             if (this.dalek1.getRow() == this.Doc.getRow() && this.dalek1.getCol() == this.Doc.getCol()) {
                 this.gameBoard.displayMessage("Game over, Doctor has crashed with Dalek 1.");
                 this.gameBoard.putPeg(Board.YELLOW, this.Doc.getRow(), this.Doc.getCol());
